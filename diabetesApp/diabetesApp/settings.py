@@ -125,11 +125,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Directories where Django will look for static files
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Static files for the accounts app
+    os.path.join(BASE_DIR, 'main/static'),  # Static files for the main app 
  ]
 
 # Directory where collected static files will be stored during production
